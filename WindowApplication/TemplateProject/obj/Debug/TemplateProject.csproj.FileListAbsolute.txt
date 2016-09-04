@@ -1,0 +1,9 @@
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\bin\Debug\TemplateProject.dll.config
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\bin\Debug\TemplateProject.dll
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\bin\Debug\TemplateProject.pdb
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\obj\Debug\TemplateProject.csprojResolveAssemblyReference.cache
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\obj\Debug\TemplateProject.FormParent.resources
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\obj\Debug\TemplateProject.Properties.Resources.resources
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\obj\Debug\TemplateProject.csproj.GenerateResource.Cache
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\obj\Debug\TemplateProject.dll
+C:\Users\ZawMyoHtet\documents\visual studio 2013\Projects\WindowApplication\TemplateProject\obj\Debug\TemplateProject.pdb

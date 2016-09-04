@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{839757F9-3C2C-44CC-8BFE-918837DF6E26}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowApplication</RootNamespace>
+    <AssemblyName>WindowApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowApplication.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CatchAFish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatchAFish.Designer.cs">
+      <DependentUpon>CatchAFish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatchAGenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatchAGenie.Designer.cs">
+      <DependentUpon>CatchAGenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatchARabbit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatchARabbit.Designer.cs">
+      <DependentUpon>CatchARabbit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm.Designer.cs">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMaintenance.Designer.cs">
+      <DependentUpon>CustomerMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DogContextMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DogContextMenuForm.Designer.cs">
+      <DependentUpon>DogContextMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IceCreamComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IceCreamComboBox.Designer.cs">
+      <DependentUpon>IceCreamComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IceCreamGroupBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IceCreamGroupBox.Designer.cs">
+      <DependentUpon>IceCreamGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IceCreamListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IceCreamListBox.Designer.cs">
+      <DependentUpon>IceCreamListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IceCreamRadio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IceCreamRadio.Designer.cs">
+      <DependentUpon>IceCreamRadio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KillARabbit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KillARabbit.Designer.cs">
+      <DependentUpon>KillARabbit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabelTestingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelTestingForm.Designer.cs">
+      <DependentUpon>LabelTestingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuToolContextScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuToolContextScript.Designer.cs">
+      <DependentUpon>MenuToolContextScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MouseTesting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MouseTesting.Designer.cs">
+      <DependentUpon>MouseTesting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySecondForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySecondForm.Designer.cs">
+      <DependentUpon>MySecondForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestUserControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestUserControlForm.Designer.cs">
+      <DependentUpon>TestUserControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextBoxButton.Designer.cs">
+      <DependentUpon>TextBoxButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextBoxForm.Designer.cs">
+      <DependentUpon>TextBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CatchAFish.resx">
+      <DependentUpon>CatchAFish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatchAGenie.resx">
+      <DependentUpon>CatchAGenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatchARabbit.resx">
+      <DependentUpon>CatchARabbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForm.resx">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerMaintenance.resx">
+      <DependentUpon>CustomerMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DogContextMenuForm.resx">
+      <DependentUpon>DogContextMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IceCreamComboBox.resx">
+      <DependentUpon>IceCreamComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IceCreamGroupBox.resx">
+      <DependentUpon>IceCreamGroupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IceCreamListBox.resx">
+      <DependentUpon>IceCreamListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IceCreamRadio.resx">
+      <DependentUpon>IceCreamRadio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KillARabbit.resx">
+      <DependentUpon>KillARabbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelTestingForm.resx">
+      <DependentUpon>LabelTestingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuToolContextScript.resx">
+      <DependentUpon>MenuToolContextScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseTesting.resx">
+      <DependentUpon>MouseTesting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySecondForm.resx">
+      <DependentUpon>MySecondForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TestUserControlForm.resx">
+      <DependentUpon>TestUserControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxButton.resx">
+      <DependentUpon>TextBoxButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxForm.resx">
+      <DependentUpon>TextBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TemplateProject\TemplateProject.csproj">
+      <Project>{E73A752D-F1ED-4876-8183-CC5EFB6ED4B8}</Project>
+      <Name>TemplateProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
